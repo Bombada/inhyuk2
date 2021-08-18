@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/ROS_Test/catkin_ws1/install
+
+Name: test1_pkg
+Description: Description of test1_pkg
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs
